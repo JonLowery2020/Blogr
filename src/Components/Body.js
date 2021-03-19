@@ -1,5 +1,8 @@
 import {Container, Row, Col } from "react-bootstrap";
-import React from "react"
+import {ReactComponent as Editor} from "../assets/images/illustration-editor-desktop.svg";
+import {ReactComponent as Phones} from "../assets/images/illustration-phones.svg";
+import {ReactComponent as Laptop} from "../assets/images/illustration-laptop-desktop.svg"
+import React from "react";
 
 
 const Body = () => {
@@ -23,12 +26,14 @@ const Body = () => {
                         </Row>
                     </Col>
                     <Col xs={6}  >
+                        <Editor/>
                     </Col>
                 </Row>
             </div>
             <div className="p-3">
                 <Row className="sota">
                     <Col xs={6}>
+                        <Phones/>
 
                     </Col>
                     <Col xs={6} >
@@ -40,7 +45,7 @@ const Body = () => {
             <div className= "pr-5">
                 <Row>
                     <Col xs={6}>
-                    
+                        <Laptop/>                   
                     </Col>
                     <Col>
                         <Row>
