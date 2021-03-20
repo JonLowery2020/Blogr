@@ -34,7 +34,6 @@ const Body = () => {
                 <Row className="sota">
                     <Col xs={6}>
                         <Phones/>
-
                     </Col>
                     <Col xs={6} >
                         <h3>Stat of the Art Infrastructure</h3>
