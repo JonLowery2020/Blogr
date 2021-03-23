@@ -1,5 +1,4 @@
 import {Jumbotron, Button, Navbar, Nav, NavDropdown } from "react-bootstrap";
-import {ReactComponent as logo} from "../assets/images/illustration-editor-desktop.svg"
 
 
 const Header = () => {

@@ -1,15 +1,27 @@
 .jumbotron{
   border-radius: 0 0 0 75px !important;
-  background-image: linear-gradient(to bottom right, #f68e73, #ef4258 );
+  background-image: linear-gradient(to bottom right, #f68e73, #ef4258 ) ;
   color: whitesmoke;
 }
-
-.sota{
-  background-color: #41426d;
-  border-radius: 0 75px 0 75px;
-  color: whitesmoke;
+.design_future h4{
+  text-align: center;
 }
 
+.phone_row{
+  background-color: #2c2e46;
+  color:whitesmoke
+}
+.phone_col img{
+  background-image: url(./images/bg-pattern-circles.svg) no-repeat;
+  position: absolute;
+  top: -5rem;
+  right:-6rem;
+  padding:0em;
+}
+
+.laptop_row{
+  margin-top: 15rem;
+}
 .footer{
   background-color: #2d2e40;
   color: whitesmoke;
