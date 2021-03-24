@@ -3,6 +3,19 @@
   background-image: linear-gradient(to bottom right, #f68e73, #ef4258 ) ;
   color: whitesmoke;
 }
+.navbar-light .navbar-nav .nav-link {
+  color: whitesmoke !important;
+}
+.jumbotron .btn{
+  background-color: transparent;
+  color: whitesmoke;
+  border-radius: 16px;
+}
+
+.btn-outline-light:hover{
+  color: #ef4258 !important;
+}
+
 .design_future h4{
   text-align: center;
 }

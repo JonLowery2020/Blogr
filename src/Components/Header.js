@@ -12,7 +12,7 @@ const Header = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
-                        <NavDropdown title="Product">
+                        <NavDropdown title="Product" className="nav-dropdown">
                             <NavDropdown.Item>Overview</NavDropdown.Item>
                             <NavDropdown.Item>Pricing</NavDropdown.Item>
                             <NavDropdown.Item>Marketplace</NavDropdown.Item>
@@ -31,10 +31,10 @@ const Header = () => {
                             <NavDropdown.Item>LinkdIn</NavDropdown.Item>
                         </NavDropdown>                     
                     </Nav>
-                    <Button>
+                    <Button className="btn btn-outline-light text-light">
                          Log in
                     </Button> 
-                    <Button className="ml-1">
+                    <Button className="ml-1 btn btn-outline-light text-light">
                         Sign Up
                     </Button>  
                 </Navbar.Collapse>
@@ -48,10 +48,10 @@ const Header = () => {
                 Grow your audience and build your online brand
             </p>
             <div>
-                <Button>
+                <Button className="btn btn-outline-light text-light">
                     Start for free
                 </Button>
-                <Button className="ml-1">
+                <Button className="ml-1 btn btn-outline-light text-light">
                     learn more
                 </Button>
             </div>

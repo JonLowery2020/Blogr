@@ -36,13 +36,13 @@ const Body = () => {
                         </p>
                     </Col>
                 </Row>
-                <Row className="laptop_row mt-10">
+                <Row className="laptop_row ">
                     <Col xs={6} className="laptop_col p-0">
                         <img width={487} height={393} src={laptop} alt="vector laptop image" className="laptop" />
                     </Col>
                     <Col xs={6} className="p-5">
                         <Row>
-                            <h5>Free,opn,simple</h5>
+                            <h5>Free,open,simple</h5>
                             <p>
                                 Blogr is a free and open source application backed by a large community if helpful developers. It supports features such as code syntax highlighting, RSS feeds, social media intergration, third-party commenting tools and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn
                             </p>
